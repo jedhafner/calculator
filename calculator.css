@@ -38,7 +38,7 @@ body {
     width: 220px;
 }
 
-.keypad button {
+button {
     background: orange;
     color: white;
     font-weight: bold;
@@ -49,6 +49,17 @@ body {
     text-align: center;
     border-radius: 5px;
 }
+
+.operator {
+    background: burlywood;
+}
+
+.plusMinusPercent, .clear {
+    background:sienna;
+}
+
+
+
 
 #zero {
     width: 105px;

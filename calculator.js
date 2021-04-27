@@ -126,10 +126,14 @@ keypad.addEventListener('click', function(event) {
 					divide(operand1,operand2);
 					break;
 				case '=':
-					operand1 = operand1;			
+					operand1 = operand1;
 				}
+			if (clickedText === "=") {
+				operator = "";
+			}else{
 				operator = clickedText;
-				currentVariable = 0;
+			}
+			currentVariable = 0;
 			}
 		}
 		if(display.textContent.length > displayLengthMax){
