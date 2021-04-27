@@ -1,0 +1,55 @@
+
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    font-family: sans-serif;
+    background: chocolate;
+}
+.case {
+    background: slategray;
+    width: 235px;
+    padding: 7.5px;
+    display: flex;
+    margin-top: 200px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+.case div {
+    margin: 5px;
+    border-radius: 7.5px;
+}
+.display {
+    width: 215px;
+    height: 30px;
+    color: green;
+    font-size: 25px;
+    padding: 5px 5px 5px;
+    background: black;
+    text-align: right;
+}
+.keypad {
+    background: olive;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2.5px;
+    width: 220px;
+}
+
+.keypad button {
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    width: 50px;
+    height: 50px;
+    margin: 2.5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#zero {
+    width: 105px;
+}
